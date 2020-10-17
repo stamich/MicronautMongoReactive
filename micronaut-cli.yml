@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: io.codeswarm
+testFramework: spock
+sourceLanguage: java
+buildTool: gradle
+features: [ annotation-api, app-name, gradle, http-client, java, java-application, log4j2, mongo-reactive, netflix-ribbon, netty-server, reactor, readme, shade, spock, yaml ]
