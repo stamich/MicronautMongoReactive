@@ -40,6 +40,6 @@ public class BookController {
     @Produces(MediaType.TEXT_PLAIN)
     public HttpResponse<String> deleteBeer(@PathVariable("title") String title) {
         bookService.delete(bookService.findOneByTitle(title).getId());
-        return HttpResponse.ok("Beer deleted successfully");
+        return HttpResponse.ok("Book deleted successfully");
     }
 }
